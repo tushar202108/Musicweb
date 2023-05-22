@@ -4,6 +4,7 @@
 }
 body{
     background-color:rgb(43, 45, 45);
+    overflow: hidden;
 }
 nav img{
     height: 68px;
@@ -39,7 +40,6 @@ button{
     display: flex;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma,Geneva, Verdana, sans-serif;
-    align-items: center;
 }
 nav ul li{
     padding: 0 12px;
@@ -50,14 +50,14 @@ nav ul li{
 .container{
     height: 100px;
     background-color: black;
-    width: auto;
-    /* margin-top: 1%; */
+    width: 101%;
     flex-direction: column;
     color: aliceblue;
     padding: 12px 0;
     align-items: center;
     justify-content: center;
     display: flex;
+   
     
 }
 #scroll{
@@ -173,4 +173,29 @@ nav ul li{
    padding: 10px ;
    font-size: larger;
     margin-left: 140px;
+}
+#Home{
+    position: absolute;
+    display: flex;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: larger;
+    margin-left: 35%;
+}
+#About{
+    display: flex;
+    position: absolute;
+    margin-left: 38%;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: larger;
+
+}
+#Home:hover{
+    color: grey;
+}
+#About:hover{
+    color: grey;
 }
